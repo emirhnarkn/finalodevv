@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pad
 
 data = {'AGE': ['<=30', '<=30', '31...40', '>40', '>40', '>40', '31...40', '<=30', '<=30', '31...40', '<=30', '31...40', '31...40', '>40'],
         'INCOME': ['High', 'High', 'High', 'medium', 'low', 'low', 'low', 'medium', 'low', 'medium', 'medium', 'medium', 'High', 'medium'],
