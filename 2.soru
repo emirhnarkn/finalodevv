@@ -31,3 +31,8 @@ p_x_no = p_age_no * p_income_no * p_student_no * p_credit_rating_no  # P(X | buy
 
 p_x_ci_yes = p_x_yes * p_yes  # P(X | buys_computer = "yes") * P(buys_computer = "yes") hesaplama
 p_x_ci_no = p_x_no * p_no  # P(X | buys_computer = "no") * P(buys_computer = "no") hesaplama
+
+if p_x_ci_yes > p_x_ci_no:
+    print("Kişi bilgisayar alabilir. Olasılık:", p_x_ci_yes)
+else:
+    print("Kişi bilgisayar alamaz. Olasılık:", p_x_ci_no)
